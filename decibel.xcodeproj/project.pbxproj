@@ -11,14 +11,18 @@
 		88CF05902607043F00F756D4 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CF058F2607043F00F756D4 /* Tests_macOS.swift */; };
 		88CF05922607043F00F756D4 /* decibel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88CF05662607043E00F756D4 /* decibel.xcdatamodeld */; };
 		88CF05932607043F00F756D4 /* decibel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88CF05662607043E00F756D4 /* decibel.xcdatamodeld */; };
-		88CF05942607043F00F756D4 /* decibelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CF05682607043E00F756D4 /* decibelApp.swift */; };
-		88CF05952607043F00F756D4 /* decibelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CF05682607043E00F756D4 /* decibelApp.swift */; };
+		88CF05942607043F00F756D4 /* DecibelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CF05682607043E00F756D4 /* DecibelApp.swift */; };
+		88CF05952607043F00F756D4 /* DecibelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CF05682607043E00F756D4 /* DecibelApp.swift */; };
 		88CF05962607043F00F756D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CF05692607043E00F756D4 /* ContentView.swift */; };
 		88CF05972607043F00F756D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CF05692607043E00F756D4 /* ContentView.swift */; };
 		88CF05982607043F00F756D4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CF056A2607043E00F756D4 /* Persistence.swift */; };
 		88CF05992607043F00F756D4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CF056A2607043E00F756D4 /* Persistence.swift */; };
 		88CF059A2607043F00F756D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88CF056B2607043F00F756D4 /* Assets.xcassets */; };
 		88CF059B2607043F00F756D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88CF056B2607043F00F756D4 /* Assets.xcassets */; };
+		88CF05B92607064000F756D4 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88CF05B82607064000F756D4 /* CloudKit.framework */; };
+		88CF05BB2607064400F756D4 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88CF05BA2607064400F756D4 /* CloudKit.framework */; };
+		88CF05CD2607BA9A00F756D4 /* Eavesdrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CF05CC2607BA9A00F756D4 /* Eavesdrop.swift */; };
+		88CF05CE2607BA9A00F756D4 /* Eavesdrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CF05CC2607BA9A00F756D4 /* Eavesdrop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +44,7 @@
 
 /* Begin PBXFileReference section */
 		88CF05672607043E00F756D4 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
-		88CF05682607043E00F756D4 /* decibelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = decibelApp.swift; sourceTree = "<group>"; };
+		88CF05682607043E00F756D4 /* DecibelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecibelApp.swift; sourceTree = "<group>"; };
 		88CF05692607043E00F756D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		88CF056A2607043E00F756D4 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		88CF056B2607043F00F756D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,6 +59,10 @@
 		88CF058B2607043F00F756D4 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88CF058F2607043F00F756D4 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		88CF05912607043F00F756D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88CF05B2260705D600F756D4 /* decibel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = decibel.entitlements; sourceTree = "<group>"; };
+		88CF05B82607064000F756D4 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		88CF05BA2607064400F756D4 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CloudKit.framework; sourceTree = DEVELOPER_DIR; };
+		88CF05CC2607BA9A00F756D4 /* Eavesdrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eavesdrop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88CF05BB2607064400F756D4 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88CF05B92607064000F756D4 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,23 +102,26 @@
 		88CF05602607043E00F756D4 = {
 			isa = PBXGroup;
 			children = (
+				88CF05B2260705D600F756D4 /* decibel.entitlements */,
 				88CF05652607043E00F756D4 /* Shared */,
 				88CF05722607043F00F756D4 /* iOS */,
 				88CF05792607043F00F756D4 /* macOS */,
 				88CF05832607043F00F756D4 /* Tests iOS */,
 				88CF058E2607043F00F756D4 /* Tests macOS */,
 				88CF05712607043F00F756D4 /* Products */,
+				88CF05B72607064000F756D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		88CF05652607043E00F756D4 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				88CF05682607043E00F756D4 /* decibelApp.swift */,
+				88CF05682607043E00F756D4 /* DecibelApp.swift */,
 				88CF05692607043E00F756D4 /* ContentView.swift */,
 				88CF056A2607043E00F756D4 /* Persistence.swift */,
 				88CF056B2607043F00F756D4 /* Assets.xcassets */,
 				88CF05662607043E00F756D4 /* decibel.xcdatamodeld */,
+				88CF05CC2607BA9A00F756D4 /* Eavesdrop.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -157,6 +170,15 @@
 				88CF05912607043F00F756D4 /* Info.plist */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		88CF05B72607064000F756D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88CF05BA2607064400F756D4 /* CloudKit.framework */,
+				88CF05B82607064000F756D4 /* CloudKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,10 +338,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88CF05942607043F00F756D4 /* decibelApp.swift in Sources */,
+				88CF05942607043F00F756D4 /* DecibelApp.swift in Sources */,
 				88CF05982607043F00F756D4 /* Persistence.swift in Sources */,
 				88CF05922607043F00F756D4 /* decibel.xcdatamodeld in Sources */,
 				88CF05962607043F00F756D4 /* ContentView.swift in Sources */,
+				88CF05CD2607BA9A00F756D4 /* Eavesdrop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,10 +350,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88CF05952607043F00F756D4 /* decibelApp.swift in Sources */,
+				88CF05952607043F00F756D4 /* DecibelApp.swift in Sources */,
 				88CF05992607043F00F756D4 /* Persistence.swift in Sources */,
 				88CF05932607043F00F756D4 /* decibel.xcdatamodeld in Sources */,
 				88CF05972607043F00F756D4 /* ContentView.swift in Sources */,
+				88CF05CE2607BA9A00F756D4 /* Eavesdrop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +506,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = decibel.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DYDA38T7HA;
 				ENABLE_PREVIEWS = YES;
@@ -494,8 +519,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.tomasen.decibel;
 				PRODUCT_NAME = decibel;
 				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Debug;
 		};
@@ -504,6 +530,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = decibel.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DYDA38T7HA;
 				ENABLE_PREVIEWS = YES;
@@ -516,8 +543,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.tomasen.decibel;
 				PRODUCT_NAME = decibel;
 				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
