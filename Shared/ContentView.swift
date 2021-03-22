@@ -20,6 +20,7 @@ struct ContentView: View {
 
     var body: some View {
         List {
+            Text("Decibel")
             ForEach(Records) { record in
                 Text("\(record.timestamp!, formatter: itemFormatter): \(record.power) @ \(record.device?.name ?? "unknown device")")
             }
